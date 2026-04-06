@@ -1,0 +1,115 @@
+/* CSS Reset 2025 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Set box-sizing to border-box globally */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove list styles */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove quotes from blockquotes and q elements */
+blockquote, q {
+    quotes: none;
+}
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+    content: none;
+}
+
+/* Reset table styles */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Ensure consistent line-height */
+body {
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default button styles */
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+/* Remove default input and textarea styles */
+input, textarea {
+    all: unset;
+}
+
+/* Set a consistent base font */
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Ensure media elements fit their container */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* QR Code Component - Styles */
+
+body {
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 20%;
+}
+
+#qr-box {
+    background-color: #FFFFFF;
+    width: 100%;
+    /* max-width: 30%; */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.qr-code-img {
+    width: auto;
+    border-radius: 10px;
+}
+
+#qr-textblock {
+    margin: 20px;
+}
+
+#qr-box h1 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
