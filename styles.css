@@ -94,7 +94,7 @@ main {
     background-color: #FFFFFF;
     width: 100%;
     /* max-width: 30%; */
-    padding: 20px;
+    padding: 16px;
     border-radius: 10px;
     text-align: center;
 }
@@ -109,7 +109,18 @@ main {
 }
 
 #qr-box h1 {
+    font-family: "outfit", sans-serif;
     font-weight: bold;
     font-size: 1.3rem;
+    line-height: 120%;
     margin-bottom: 20px;
+    color: hsl(218, 44%, 22%)
+}
+
+#qr-box p {
+    font-family: "outfit", sans-serif;
+    font-weight: regular;
+    font-size: 1rem;
+    line-height: 140%;
+    color: hsl(215, 15%, 48%)
 }
