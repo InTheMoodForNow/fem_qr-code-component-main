@@ -91,6 +91,7 @@ main {
 }
 
 #qr-box {
+    font-family: "outfit", sans-serif;
     background-color: #FFFFFF;
     width: 100%;
     /* max-width: 30%; */
@@ -109,7 +110,6 @@ main {
 }
 
 #qr-box h1 {
-    font-family: "outfit", sans-serif;
     font-weight: bold;
     font-size: 1.3rem;
     line-height: 120%;
@@ -118,7 +118,6 @@ main {
 }
 
 #qr-box p {
-    font-family: "outfit", sans-serif;
     font-weight: regular;
     font-size: 1rem;
     line-height: 140%;
