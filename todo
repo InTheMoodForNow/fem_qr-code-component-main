@@ -1,0 +1,3 @@
+- Make it more responsive
+- Use relative unit for sizing: how to do this with spacing? Is this really best practice?
+- Is the component working with keyboard navigation?
